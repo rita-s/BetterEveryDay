@@ -5,7 +5,6 @@ import { generateCssVariables } from '../utils/theme-utils';
 class MyDocument extends Document {
   render() {
     const cssVars = generateCssVariables();
-
     return (
       <Html lang="en" className="theme-compiled">
         <Head>
