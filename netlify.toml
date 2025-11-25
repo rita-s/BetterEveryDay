@@ -1,3 +1,10 @@
 [build]
   command = "npm run build"
   publish = ".next"
+
+[build.environment]
+  BLOG_THEME = "betterevery"
+  BLOG_NAME = "betterevery.one"
+  BLOG_TITLE = "Better Every One"
+  BLOG_FONT_HEADINGS = "sans-serif"
+  BLOG_FONT_BODY = "sans-serif"
