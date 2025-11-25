@@ -1,11 +1,20 @@
 exports.COLOR_THEMES = {
+  betterevery: {
+    colors: {
+      primary: '#318BEC',      // Brilliant Azure - główny
+      'gradient-1': '#318BEC', // Brilliant Azure
+      'gradient-2': '#194676', // Yale Blue - ciemniejszy
+      'gradient-3': '#98C5F6', // Baby Blue Ice - jasny
+      'gradient-4': '#CCE2FB', // Pale Sky - najjaśniejszy
+    },
+  },
   default: {
     colors: {
-      primary: '#7D7AFF',
-      'gradient-1': '#7d7aff',
-      'gradient-2': '#2121e2',
-      'gradient-3': '#00fff0',
-      'gradient-4': '#8785FF',
+      primary: '#318BEC',
+      'gradient-1': '#318BEC',
+      'gradient-2': '#194676',
+      'gradient-3': '#98C5F6',
+      'gradient-4': '#CCE2FB',
     },
   },
   bejamas: {
